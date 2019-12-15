@@ -19,5 +19,10 @@ test: run
 	gcc test.c kefel.s -o main
 	echo '\n\n\n\n' && echo $(k) $(x)| ./main
 
+test_norun:
+	gcc test.c kefel.s -o main
+	echo '\n\n\n\n' && echo $(k) $(x)| ./main
+
+
 
 
